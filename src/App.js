@@ -3,23 +3,32 @@ import { Container, Col, Row } from "reactstrap";
 import NavBar from "./Components/NavBar";
 import Adena from "./Components/Adena";
 import Footer from "./Components/Footer";
-import ProjectCard from "./Components/ProjectCard";
+import ProjectCards from "./Components/ProjectCards";
 
 
 function App() {
   return (
-      <Container className="App">
+      <Container fluid={true} className="App">
         <Row>
-          <NavBar/>
-        </Row>
+          <Col>
+            <NavBar/>
+          </Col>
+        </Row> 
+        
         <Row>
-          <Col lg={6}>
+          <Col className="col align-self-center">
             <Adena/>
           </Col>
-          <Col lg={4}>
-            <ProjectCard/>
+
+          <Col>
+            <ProjectCards/>
           </Col>
-        </Row>    
+        </Row>
+
+
+        <Row>
+          <Footer/>
+        </Row>
       </Container>
   );
 }
