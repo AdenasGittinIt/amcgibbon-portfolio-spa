@@ -25,7 +25,6 @@ function App() {
           </Col>
         </Row>
 
-
         <Row>
           <Footer/>
         </Row>

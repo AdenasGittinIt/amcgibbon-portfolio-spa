@@ -19,8 +19,6 @@ const Example = (props) => {
     <div>
       <Navbar color="light" light expand="md">
         <NavbarBrand href="/">reactstrap</NavbarBrand>
-        <NavbarToggler onClick={toggle} />
-        <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
               <NavLink href="#">See What I'm About</NavLink>
@@ -33,7 +31,6 @@ const Example = (props) => {
             </NavItem>
           </Nav>
           <NavbarText>Simple Text</NavbarText>
-        </Collapse>
       </Navbar>
     </div>
   );
