@@ -1,5 +1,5 @@
 import React from "react";
-import {   Card, CardImg, CardBody, CardLink, CardDeck } from "reactstrap"
+import { Card, CardImg, CardBody, CardLink, CardDeck } from "reactstrap"
 
 const ProjectCard = (props) => {
   return (

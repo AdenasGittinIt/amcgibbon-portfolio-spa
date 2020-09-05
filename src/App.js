@@ -4,7 +4,7 @@ import NavBar from "./Components/NavBar";
 import Adena from "./Components/Adena";
 import Footer from "./Components/Footer";
 import ProjectCards from "./Components/ProjectCards";
-
+import Example from "./Components/ContactCards"
 
 function App() {
   return (
@@ -14,14 +14,12 @@ function App() {
             <NavBar/>
           </Col>
         </Row> 
-        
         <Row>
           <Col className="col align-self-center">
             <Adena/>
           </Col>
-
           <Col>
-            <ProjectCards/>
+            <ProjectCards />
           </Col>
         </Row>
 
